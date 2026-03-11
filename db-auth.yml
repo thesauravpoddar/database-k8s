@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: db-auth
+type: Opaque
+stringData:
+  POSTGRES_USER: saurav
+  POSTGRES_PASSWORD: saurav
+  POSTGRES_DB: my_db
